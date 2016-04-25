@@ -1,33 +1,22 @@
-#
-# Be sure to run `pod lib lint XDJVendor.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "XDJVendor"
   s.version          = "0.1.0"
-  s.summary          = "A short description of XDJVendor."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = "A csh vendor"
 
   s.description      = <<-DESC
+
+"just A csh vendor "
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/XDJVendor"
+  s.homepage         = "https://github.com/kentchen1991/XDJVendor"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "492122973@qq.ccom" => "492122973@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/XDJVendor.git", :tag => s.version.to_s }
+  s.author           = { "kentchen1991" => "492122973@qq.com" }
+  s.source           = { :git => "https://github.com/kentchen1991/XDJVendor.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'XDJVendor/Classes/**/*'
   s.resource_bundles = {
@@ -36,5 +25,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
