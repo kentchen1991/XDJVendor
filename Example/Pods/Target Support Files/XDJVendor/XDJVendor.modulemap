@@ -1,0 +1,6 @@
+framework module XDJVendor {
+  umbrella header "XDJVendor-umbrella.h"
+
+  export *
+  module * { export * }
+}

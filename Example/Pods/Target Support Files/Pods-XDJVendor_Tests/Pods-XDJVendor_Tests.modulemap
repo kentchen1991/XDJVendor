@@ -1,0 +1,6 @@
+framework module Pods_XDJVendor_Tests {
+  umbrella header "Pods-XDJVendor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
